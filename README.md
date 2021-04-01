@@ -53,3 +53,4 @@ You can check source of example using all features of **lazyLoadImage** in `exam
 - [x] Upload library to public.
 - [ ] Add support execution of `viewportChange` for window resize event. 
 - [ ] Check element boundary box with `data-offset` when it's only visible when some conditions (css) and `data-viewport` enabled.
+- [ ] Add SVG elements async loading support.
