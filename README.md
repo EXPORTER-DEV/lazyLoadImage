@@ -1,6 +1,6 @@
 # lazyLoadImage
 
-lazyLoadImage — javascript library, the simplest way to load pictures assets on page asynchronously.
+lazyLoadImage — plain JavaScript library, the simplest way to load pictures assets on page asynchronously.
 
 Features:
 
