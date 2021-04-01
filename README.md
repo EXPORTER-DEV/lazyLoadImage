@@ -46,7 +46,7 @@ To control way for loading items you should set some attributes.
 
 ### Example
 
-You can check source of example using all features of **lazyLoadImage** in `example` directory → [example page](example/index.html).
+You can check source of example using all features of **lazyLoadImage** in `example` directory → [example page](https://exporter-dev.github.io/lazyLoadImage/example/).
 
 ### To do
 
