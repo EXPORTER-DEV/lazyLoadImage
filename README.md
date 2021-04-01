@@ -1,6 +1,6 @@
-# lazyLoadImage JS
+# lazyLoadImage
 
-lazyLoadImage — is the simplest way to load pictures assets asynchronously.
+lazyLoadImage — javascript library, the simplest way to load pictures assets on page asynchronously.
 
 Features:
 
@@ -47,3 +47,9 @@ To control way for loading items you should set some attributes.
 ### Example
 
 You can check source of example using all features of **lazyLoadImage** in `example` directory → [example page](example/index.html).
+
+### To do
+
+- [x] Upload library to public.
+- [ ] Add support execution of `viewportChange` for window resize event. 
+- [ ] Check element boundary box with `data-offset` when it's only visible when some conditions (css) and `data-viewport` enabled.
