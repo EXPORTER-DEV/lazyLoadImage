@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lazyLoadImage JS</title>
+	<style type="text/css">
+		html, body {
+			padding: 0 !important;
+			margin: 0 !important;
+		} 
+		div.container {
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		div.container.grey {
+			background: rgb(37,38,37);
+		}
+		img {
+			display: block;
+			margin: 0px auto;
+			max-height: 100vh;
+		}
+		img.s25 {
+			max-width: 25%;
+		}
+		img.s50 {
+			max-width: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img class="s25" data-src="example-1.jpg">
+	</div>
+	<div class="container grey">
+		<img class="s50" data-src="example-2.jpg" data-viewport="parent">
+	</div>
+	<div class="container">
+		<img class="s50" data-src="example-3.jpg" data-viewport>
+	</div>
+	<div class="container grey">
+		<img class="s50" data-src="example-4.jpg" data-viewport="parent" data-offset="-500">
+	</div>
+	<script type="text/javascript" src="../lazyLoadImage.js"></script>
+	<script type="text/javascript">
+		lazyLoadImage.start();
+	</script>
+</body>
+</html>
